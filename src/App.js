@@ -173,10 +173,10 @@ const App = () => {
 
     <nav className="bg-zinc-500 mx-auto p-3 py-3 pl-40 md:ml-0 md:p-3 md:px-0 flex  md:flex-row justify-center items-center gap-3 overflow-x-scroll md:overflow-x-hidden" >
       
-    <a
-  href='#'
+    <button
+  
   className={`text-white md:font-bold md:text-lg text-xs font-normal ${
-    activeCategory === null ? 'text-cyan-500' : ''
+    activeCategory === null ? 'text-sky-500' : 'text-white'
   }`}
   style={{ fontFamily: 'Inter, sans-serif' }}
   onClick={() => {
@@ -185,11 +185,10 @@ const App = () => {
   }}
 >
   All
-</a>
-<a
-  href='#'
+</button>
+<button
   className={`text-white md:font-bold md:text-lg text-xs font-normal ${
-    activeCategory === 'Kape' ? 'text-cyan-500' : ''
+    activeCategory === 'Kape' ? 'text-sky-500' : ''
   }`}
   style={{ fontFamily: 'Inter, sans-serif' }}
   onClick={() => {
@@ -198,11 +197,10 @@ const App = () => {
   }}
 >
   Kape
-</a>
-<a
-  href='#'
+</button>
+<button
   className={`text-white md:font-bold md:text-lg text-xs font-normal ${
-    activeCategory === 'Shampoo' ? 'text-cyan-500' : ''
+    activeCategory === 'Shampoo' ? 'text-sky-500' : ''
   }`}
   style={{ fontFamily: 'Inter, sans-serif' }}
   onClick={() => {
@@ -211,12 +209,11 @@ const App = () => {
   }}
 >
   Shampoo
-</a>
+</button>
 
-<a
-  href='#'
+<button
   className={`text-white md:font-bold md:text-lg text-xs font-normal ${
-    activeCategory === 'Sabon' ? 'text-cyan-500' : ''
+    activeCategory === 'Sabon' ? 'text-sky-500' : ''
   }`}
   style={{ fontFamily: 'Inter, sans-serif' }}
   onClick={() => {
@@ -225,12 +222,11 @@ const App = () => {
   }}
 >
 Sabon
-</a>
+</button>
 
-<a
-  href='#'
+<button
   className={`text-white md:font-bold md:text-lg text-xs font-normal ${
-    activeCategory === 'Delata' ? 'text-cyan-500' : ''
+    activeCategory === 'Delata' ? 'text-sky-500' : ''
   }`}
   style={{ fontFamily: 'Inter, sans-serif' }}
   onClick={() => {
@@ -239,12 +235,11 @@ Sabon
   }}
 >
   Delata
-</a>
+</button>
 
-<a
-  href='#'
+<button
   className={`text-white md:font-bold md:text-lg text-xs font-normal ${
-    activeCategory === 'Snacks' ? 'text-cyan-500' : ''
+    activeCategory === 'Snacks' ? 'text-sky-500' : ''
   }`}
   style={{ fontFamily: 'Inter, sans-serif' }}
   onClick={() => {
@@ -253,12 +248,11 @@ Sabon
   }}
 >
 Snacks
-</a>
+</button>
 
-<a
-  href='#'
+<button
   className={`text-white md:font-bold md:text-lg text-xs font-normal ${
-    activeCategory === 'Softdrinks' ? 'text-cyan-500' : ''
+    activeCategory === 'Softdrinks' ? 'text-sky-500' : ''
   }`}
   style={{ fontFamily: 'Inter, sans-serif' }}
   onClick={() => {
@@ -267,12 +261,11 @@ Snacks
   }}
 >
 Softdrinks
-</a>
+</button>
 
-<a
-  href='#'
+<button
   className={`text-white md:font-bold md:text-lg text-xs font-normal ${
-    activeCategory === 'Detergent' ? 'text-cyan-500' : ''
+    activeCategory === 'Detergent' ? 'text-sky-500' : ''
   }`}
   style={{ fontFamily: 'Inter, sans-serif' }}
   onClick={() => {
@@ -281,13 +274,12 @@ Softdrinks
   }}
 >
 Detergent
-</a>
+</button>
 
 
-<a
-  href='#'
+<button
   className={`text-white md:font-bold md:text-lg text-xs font-normal ${
-    activeCategory === 'Condiments' ? 'text-cyan-500' : ''
+    activeCategory === 'Condiments' ? 'text-sky-500' : ''
   }`}
   style={{ fontFamily: 'Inter, sans-serif' }}
   onClick={() => {
@@ -296,7 +288,7 @@ Detergent
   }}
 >
 Condiments
-</a>
+</button>
 
 
     </nav>
